@@ -1,12 +1,12 @@
 //Variables
 const courses = document.getElementById("courses-list");
-shoppingCart = document.querySelector("#cart-content tbody");
 clearCart = document.querySelector("#shopping-cart");
+shoppingCart = document.querySelector("#cart-content tbody");
 
 //EventListeners
-eventlisteners();
+eventListeners();
 
-function eventlisteners() {
+function eventListeners() {
   courses.addEventListener("click", buyCourse);
   clearCart.addEventListener("click", clearCartBtn);
   shoppingCart.addEventListener("click", ShopCartRmval);
